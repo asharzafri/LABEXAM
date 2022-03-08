@@ -5,5 +5,17 @@ Contact details: G00366561@gmit.ie
  */
 package ie.gmit;
 
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 public class EmployeeTest {
+     Employee employee = new Employee();
+
+    @Test
+    void testtitle(){
+
+
+    //assertEquals("MR", employee.testTittle);
+    }
 }
