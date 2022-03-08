@@ -5,6 +5,7 @@ public class Employee {
     private String tittle;
     private int phone;
     private String PPSID;
+    private String employmentType;
 
     public Employee() {
 
@@ -33,4 +34,12 @@ public class Employee {
     public void testPhone(){
 
     }
+
+    public void emplyment(String employmentType) {
+        this.employmentType = employmentType;
+    }
+    public void testemployment(){
+
+    }
+
 }

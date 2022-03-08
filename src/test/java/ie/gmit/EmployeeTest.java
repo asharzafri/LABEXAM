@@ -30,4 +30,10 @@ public class EmployeeTest {
 
         //assertEquals("MR", employee.testTittle);
     }
+    @Test
+    void testemploymenttype(){
+
+
+        //assertEquals("MR", employee.testTittle);
+    }
 }
