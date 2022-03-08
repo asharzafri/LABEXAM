@@ -6,6 +6,7 @@ public class Employee {
     private int phone;
     private String PPSID;
     private String employmentType;
+    private int age;
 
     public Employee() {
 
@@ -39,6 +40,13 @@ public class Employee {
         this.employmentType = employmentType;
     }
     public void testemployment(){
+
+    }
+
+    public void Age(int age) {
+        this.age = age;
+    }
+    public void testAge(){
 
     }
 

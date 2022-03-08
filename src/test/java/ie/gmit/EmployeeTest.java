@@ -36,4 +36,10 @@ public class EmployeeTest {
 
         //assertEquals("MR", employee.testTittle);
     }
+    @Test
+    void testAge(){
+
+
+        //assertEquals("MR", employee.testTittle);
+    }
 }
