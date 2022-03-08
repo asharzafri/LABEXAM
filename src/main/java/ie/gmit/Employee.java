@@ -3,11 +3,13 @@ package ie.gmit;
 public class Employee {
 
     private String tittle;
+    private int phone;
+    private String PPSID;
 
     public Employee() {
 
     }
-    public Employee(String tittle) {
+    public void tittle(String tittle) {
         this.tittle = tittle;
     }
 
@@ -15,8 +17,20 @@ public class Employee {
 
     }
 
+    public void PPSID(String PPS) {
+        this.PPSID = PPS;
+    }
+
+    public void testPPSID(){
+
+    }
 
 
+    public void Phone(int phone) {
+        this.phone = phone;
+    }
 
+    public void testPhone(){
 
+    }
 }
