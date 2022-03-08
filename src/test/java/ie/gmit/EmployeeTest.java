@@ -18,4 +18,16 @@ public class EmployeeTest {
 
     //assertEquals("MR", employee.testTittle);
     }
+    @Test
+    void testPPSID(){
+
+
+        //assertEquals("MR", employee.testTittle);
+    }
+    @Test
+    void testPhone(){
+
+
+        //assertEquals("MR", employee.testTittle);
+    }
 }
